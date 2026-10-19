@@ -29,15 +29,18 @@ Script em Python desenvolvido para automatizar a prospecção de clientes locais
    cd prospeccao-python
 
 2. Criar um ambiente virtual:
-  python -m venv .venv
+ ```bash
+python -m venv .venv
 
-  # No Windows (PowerShell):
-  .\.venv\Scripts\Activate.ps1
+# No Windows (PowerShell):
+.\.venv\Scripts\Activate.ps1
 
 3. Instala as dependências necessárias:
+ ```bash 
 pip install requests beautifulsoup4
 
 4. Executa o script:
+ ```bash
 py prospeccao.py
 
 ---
