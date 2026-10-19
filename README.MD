@@ -1,3 +1,4 @@
+Markdown
 # 🔍 ProspesScout Portugal - Extractor de Leads Locais
 
 Script em Python desenvolvido para automatizar a prospecção de clientes locais (como oficinas, restaurantes, barbearias, etc.) em Portugal que **ainda não possuem um website próprio**, tornando-os potenciais alvos para serviços de desenvolvimento web e Landing Pages.
@@ -26,11 +27,24 @@ Script em Python desenvolvido para automatizar a prospecção de clientes locais
 1. Clona este repositório ou descarrega os ficheiros:
 ```bash
 git clone [https://github.com/ErickSouza94/prospeccao-python.git](https://github.com/ErickSouza94/prospeccao-python.git)
+Entra na pasta do projeto:
 
-2. Entre na pasta
-```bash
+Bash
 cd prospeccao-python
+Cria e ativa um ambiente virtual:
 
-3. Cria e ativa um ambiente virtual
-```bash
+Bash
 python -m venv .venv
+No Windows (PowerShell):
+
+PowerShell
+.\.venv\Scripts\Activate.ps1
+Instala as dependências necessárias:
+
+Bash
+pip install requests beautifulsoup4
+Executa o script:
+
+Bash
+py prospeccao.py
+💡 Desenvolvido para otimizar processos de prospecção e vendas de serviços digitais em Portugal.
