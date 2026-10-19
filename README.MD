@@ -26,23 +26,23 @@ Script em Python desenvolvido para automatizar a prospecção de clientes locais
 1. Clona este repositório ou descarrega os ficheiros:
    ```bash
    git clone [https://github.com/ErickSouza94/prospeccao-python.git](https://github.com/ErickSouza94/prospeccao-python.git)
-   cd prospeccao-python
+Entra na pasta do projeto:
 
-2. Criar um ambiente virtual:
- ```bash
+Bash
+cd prospeccao-python
+Cria e ativa um ambiente virtual:
+
+Bash
 python -m venv .venv
 
 # No Windows (PowerShell):
 .\.venv\Scripts\Activate.ps1
+Instala as dependências necessárias:
 
-3. Instala as dependências necessárias:
- ```bash 
+Bash
 pip install requests beautifulsoup4
+Executa o script:
 
-4. Executa o script:
- ```bash
+Bash
 py prospeccao.py
-
----
-
-** 💡 Desenvolvido para otimizar processos de prospecção e vendas de serviços digitais em Portugal.
+💡 Desenvolvido para otimizar processos de prospecção e vendas de serviços digitais.
