@@ -27,6 +27,6 @@ Script em Python desenvolvido para automatizar a prospecção de clientes locais
 
 1. Clona este repositório ou descarrega os ficheiros:
    ```bash
-   git clone [https://github.com/teu-utilizador/prospeccao-python.git](https://github.com/teu-utilizador/prospeccao-python.git)
+   git clone [https://github.com/ErickSouza94/prospeccao-python.git](https://github.com/ErickSouza94/prospeccao-python.git)
    cd prospeccao-python
    ```
