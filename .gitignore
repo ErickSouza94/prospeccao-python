@@ -1,0 +1,7 @@
+# Ambiente virtual
+.venv/
+__pycache__/
+
+# Ficheiros de leads gerados localmente
+leads/
+*.csv
