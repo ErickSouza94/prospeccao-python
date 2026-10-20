@@ -1,4 +1,4 @@
-# 🔍 ProspesScout Portugal - Extractor de Leads Locais
+# 🔍 ProspesScout - Extractor de Leads Locais
 
 Script em Python desenvolvido para automatizar a prospecção de clientes locais (como oficinas, restaurantes, barbearias, etc.) que **ainda não possuem um website próprio**, tornando-os potenciais alvos para serviços de desenvolvimento web e Landing Pages.
 
