@@ -25,10 +25,10 @@ Script em Python desenvolvido para automatizar a prospecção de clientes locais
 ## ⚙️ Como Instalar e Executar
 
 1. Clona este repositório ou descarrega os ficheiros:
-``````bash git clone [https://github.com/ErickSouza94/prospeccao-python.git](https://github.com/ErickSouza94/prospeccao-python.git)
+git clone [https://github.com/ErickSouza94/prospeccao-python.git](https://github.com/ErickSouza94/prospeccao-python.git)
 
 2. Entra na pasta do projeto:
-``````bash cd prospeccao-python
+cd prospeccao-python
 
 3. Cria e ativa um ambiente virtual:
 python -m venv .venv
