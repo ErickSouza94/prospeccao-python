@@ -1,47 +1,44 @@
-Markdown
 # 🔍 ProspesScout Portugal - Extractor de Leads Locais
 
-Script em Python desenvolvido para automatizar a prospecção de clientes locais (como oficinas, restaurantes, barbearias, etc.) em Portugal que **ainda não possuem um website próprio**, tornando-os potenciais alvos para serviços de desenvolvimento web e Landing Pages.
+Script em Python desenvolvido para automatizar a prospecção de clientes locais (como oficinas, restaurantes, barbearias, etc.) que **ainda não possuem um website próprio**, tornando-os potenciais alvos para serviços de desenvolvimento web e Landing Pages.
 
 ---
 
 ## 🚀 O que faz?
-* **Pesquisa Inteligente:** Utiliza o motor de busca DuckDuckGo (via HTML scraping) para encontrar negócios locais sem depender de chaves de API pagas ou limites de requisição.
-* **Filtro Automático de Leads:** Analisa os resultados e separa o que são diretórios/redes sociais (como Facebook ou TripAdvisor) de sites próprios.
+* **Pesquisa Inteligente:** Utiliza o motor de busca DuckDuckGo para encontrar negócios locais sem depender de chaves de API pagas.
+* **Filtro Automático de Leads:** Separa diretórios e redes sociais de sites próprios.
 * **Organização em Pastas:** 
-  * Guarda os potenciais clientes (sem site) na pasta `leads/sem_site/`.
-  * Guarda os negócios com site na pasta `leads/com_site/`.
-* **Exportação Limpa:** Gera ficheiros `.csv` formatados com codificação `utf-8-sig` e delimitados por ponto e vírgula (perfeitos para abrir diretamente no Excel).
+  * Leads (sem site) guardados em `leads/sem_site/`.
+  * Negócios com site guardados em `leads/com_site/`.
+* **Exportação Limpa:** Gera ficheiros `.csv` em formato UTF-8-SIG delimitados por ponto e vírgula.
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
-* **Python 3.x**
-* `requests` (para requisições HTTP)
-* `BeautifulSoup4` (para análise e extração do HTML)
+* Python 3.x
+* `requests`
+* `BeautifulSoup4`
 
 ---
 
 ## ⚙️ Como Instalar e Executar
 
-1. Clona este repositório ou descarrega os ficheiros:
-```git clone [https://github.com/ErickSouza94/prospeccao-python.git](https://github.com/ErickSouza94/prospeccao-python.git)```
+1. Clona este repositório:
+   `git clone [https://github.com/ErickSouza94/prospeccao-python.git](https://github.com/ErickSouza94/prospeccao-python.git)`
 
 2. Entra na pasta do projeto:
-```cd prospeccao-python```
+   `cd prospeccao-python`
 
-3. Cria e ativa um ambiente virtual:
-```python -m venv .venv```
+3. Cria e ativa o ambiente virtual:
+   `python -m venv .venv`
+   *(No Windows PowerShell: `.\.venv\Scripts\Activate.ps1`)*
 
-4. No Windows (PowerShell):
-```.\.venv\Scripts\Activate.ps1```
+4. Instala as dependências:
+   `pip install requests beautifulsoup4`
 
-5. Instala as dependências necessárias:
-```pip install requests beautifulsoup4```
-
-6. Executa o script:
-```py prospeccao.py```
+5. Executa o script:
+   `py prospeccao.py`
 
 ---
 
-## 💡 Desenvolvido para otimizar processos de prospecção e vendas de serviços digitais.
+💡 *Desenvolvido para otimizar processos de prospecção e vendas de serviços digitais.*
